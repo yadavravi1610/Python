@@ -6,6 +6,12 @@
 # if name == "john":
 #     print(name)
 
+def hello(): 
+    print("HElLO")
+
+print(hello())
+
+
 x = 1 +   2   \
 +3
 
