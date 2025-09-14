@@ -8,6 +8,7 @@
 
 def hello(): 
     print("HElLO")
+    return "Hello"
 
 print(hello())
 
