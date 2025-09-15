@@ -25,14 +25,23 @@
 #     statement
 #     increment/decrement
 
-n= int(input())
+# n= int(input())
 
-i = 0
+# i = 0
 
-while i<n:
+# while i<n:
     
-    if i%2 == 0:
-        print("0" , end = "")
-    else:
-        print("*" , end="")
-    i+=1;        
+#     if i%2 == 0:
+#         print("0" , end = "")
+#     else:
+#         print("*" , end="")
+#     i+=1;        
+
+n = 10
+
+for i in range(2, n+1):
+    temp = i
+    while temp%2 == 0:
+        temp//=2
+    if temp==1:
+        print(i)
