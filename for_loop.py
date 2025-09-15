@@ -37,11 +37,23 @@
 #         print("*" , end="")
 #     i+=1;        
 
-n = 10
+# n = 10
 
-for i in range(2, n+1):
-    temp = i
-    while temp%2 == 0:
-        temp//=2
-    if temp==1:
-        print(i)
+# for i in range(2, n+1):
+#     temp = i
+#     while temp%2 == 0:
+#         temp//=2
+#     if temp==1:
+#         print(i)
+
+# limit = 10
+
+# sum = 0
+
+# while True:
+#     n = int(input())
+#     if sum + n > limit:
+#         print(sum, "Limit Reached")
+#         break
+#     sum += n
+#     print(sum)
