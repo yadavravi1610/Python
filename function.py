@@ -8,13 +8,25 @@
 
 # If we give more arguments than parameters it will show error instead of that in parameters we can take *num
 
-a = int(input())
-b = int(input())
+# a = int(input())
+# b = int(input())
 
-def sum(*numbers):
+def sum(numbers, st): / sum(numbers, st=1)
     s = 0
-    for n in numbers:
+    st= st or 1      / 
+    for n in range(st, numbers+1):
         s+=n
     print(s)
 
-sum(a,b,8)   
+sum(a, b)   
+
+# n = 5
+
+# def square(n):
+#     n*=n
+#     return n
+
+# def double(s):
+#     print(2*s)
+
+# double(square(n))    
