@@ -11,14 +11,14 @@
 # a = int(input())
 # b = int(input())
 
-def sum(numbers, st): / sum(numbers, st=1)
-    s = 0
-    st= st or 1      / 
-    for n in range(st, numbers+1):
-        s+=n
-    print(s)
+# def sum(numbers, st): / sum(numbers, st=1)
+#     s = 0
+#     st= st or 1      / 
+#     for n in range(st, numbers+1):
+#         s+=n
+#     print(s)
 
-sum(a, b)   
+# sum(a, b)   
 
 # n = 5
 
