@@ -25,9 +25,10 @@
 
 # print(list)    
 
-list = input().split()
+# list = input().split()
 
-for i in range(len(list)):
-    list[i] = int(list[i])
+# for i in range(len(list)):
+#     list[i] = int(list[i])
 
-print(list)
+# print(list)
+
