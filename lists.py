@@ -8,6 +8,10 @@
 # list.append(4) // adding elements in the list
 # print(list)
 
-list = [1,2,3]
-list.insert(4,5) // adding elements in list using insert  list.insert(index, value)
+# list = [1,2,3]
+# list.insert(2,5) // adding elements in list using insert  list.insert(index, value)
+# print(list)
+
+list = [1,2,4]
+list.pop() //pop function removes the last element and return it as well
 print(list)
