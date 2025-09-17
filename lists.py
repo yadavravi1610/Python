@@ -12,6 +12,15 @@
 # list.insert(2,5) // adding elements in list using insert  list.insert(index, value)
 # print(list)
 
-list = [1,2,4]
-list.pop() //pop function removes the last element and return it as well
-print(list)
+# list = [1,2,4]
+# list.pop() //pop function removes the last element and return it as well
+# print(list)
+
+list = []
+
+n= int(input())
+for i in range(n):
+    element = int(input())
+    list.append(element)
+
+print(list)    
