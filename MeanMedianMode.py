@@ -11,6 +11,8 @@ for i in lists:
 mean = sum // len(lists)
 print(mean)
 
+lists.sort()
+
 if len(lists)%2 != 0:
     median = len(lists)//2
     print("Median for odd numbers = ", lists[median])
