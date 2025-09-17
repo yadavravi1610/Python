@@ -16,11 +16,18 @@
 # list.pop() //pop function removes the last element and return it as well
 # print(list)
 
-list = []
+# list = []
 
-n= int(input())
-for i in range(n):
-    element = int(input())
-    list.append(element)
+# n= int(input())
+# for i in range(n):
+#     element = int(input())
+#     list.append(element)
 
-print(list)    
+# print(list)    
+
+list = input().split()
+
+for i in range(len(list)):
+    list[i] = int(list[i])
+
+print(list)
