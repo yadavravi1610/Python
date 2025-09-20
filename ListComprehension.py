@@ -11,7 +11,10 @@ list = [int(ele) for ele in input().split()] # Using this we can take input in l
 #So for that we will typecase our element
 # print(list) 
 
-list1 = [ele*ele for ele in list]
-print(list1)
+# list1 = [ele*ele for ele in list]
+# print(list1)
 
 # we can create new list by using values of existing list
+
+list = [ele*2 for ele in range(5) if ele<=4]
+# Output  , Collection, Condition
