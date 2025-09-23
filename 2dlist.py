@@ -12,9 +12,6 @@ n = int(input())
 
 list = []
 for i in range(m):
-    tempList = input().split()
-    for j in range(n):
-        tempList[j] = int(tempList[j])
-    list.append(tempList)    
-
+    tempList = [int(ele) for ele in input().split()] #shorthand of taking input for list in list
+    list.append(tempList)
 print(list)
