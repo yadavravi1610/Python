@@ -27,5 +27,14 @@ for i in range(m):
 #             print(list[i][j], end=" ")
 #     print() #After finishing a row, this prints an empty line → moves to the next row.
 
-trace = [list[i][j] for i in range(m) for j in range(m) if j<=i]
-print(trace)
+# trace = [list[i][j] for i in range(m) for j in range(m) if j<=i]
+# print(trace)
+
+for i in range(m):
+    for j in range(m):
+        if j > i:
+            temp = list[i][j]
+            list[j][i] = list[i][j]
+            list[i][j] = temp
+
+print(list)            
