@@ -33,7 +33,7 @@ for i in range(m):
 for i in range(m):
     for j in range(m):
         if j > i:
-            temp = list[i][j]
+            temp = list[j][i]
             list[j][i] = list[i][j]
             list[i][j] = temp
 
