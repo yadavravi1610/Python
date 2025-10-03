@@ -6,9 +6,18 @@
 
 # stringJumper(input())
 
-def printInDecreasing(x):
-    while (x >= 0):
-        print(x,end=" ")
-        x -= 1
+# def printInDecreasing(x):
+#     while (x >= 0):
+#         print(x,end=" ")
+#         x -= 1
 
-printInDecreasing(int(input()))        
+# printInDecreasing(int(input()))       
+# 
+
+def printIncreasingPower(x):
+    n =1
+    while( n<=x):
+        if(n*n <= x):
+            print (n*n , end = " ")
+        
+        n += 1 
