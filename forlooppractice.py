@@ -1,7 +1,14 @@
-def stringJumper(s):
-    for i in range(0,len(s),2):
-        # from 0 to length of str and skip 2
-        print(s[i], end="")
-        #printing character and separating characters by nothing
+# def stringJumper(s):
+#     for i in range(0,len(s),2):
 
-stringJumper(input())
+#         print(s[i], end="")
+
+
+# stringJumper(input())
+
+def printInDecreasing(x):
+    while (x >= 0):
+        print(x,end=" ")
+        x -= 1
+
+printInDecreasing(int(input()))        
